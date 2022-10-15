@@ -1,0 +1,59 @@
+.item-card {
+  position: relative;
+  width: 255px;
+  min-height: 240px;
+  margin-bottom: 30px;
+}
+.layer {
+  position: absolute;
+  width: 100%;
+  border-radius: 15px;
+}
+/* styling layer 1 */
+.item-card .layer-1 {
+  height: 160px;
+  top: 0;
+  background: #ff8b64;
+}
+
+/* Styling layer 2 */
+.item-card .layer-2 {
+  height: 199px;
+  bottom: 0;
+  background: #1c204b;
+  color: #fff;
+  padding-top: 37px;
+  padding-left: 30px;
+}
+.item-card .layer-2 .category-container {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.item-card .layer-2 .category {
+  margin-right: 60px;
+  display: inline-block;
+}
+.item-card .layer-2 .price {
+  margin-top: 33px;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 46px;
+}
+.item-card .layer-2 .info {
+  display: flex;
+  align-items: baseline;
+}
+.item-card .layer-2 .info .title {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 15px;
+  line-height: 14px;
+  color: #bbc0ff;
+  width: 168px;
+}
+.item-card .layer-2 .info .stock {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}

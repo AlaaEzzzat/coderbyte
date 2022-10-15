@@ -1,0 +1,51 @@
+/*start header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header .navbar {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 10px;
+}
+.header .container {
+  display: flex;
+  padding: 10px;
+}
+.header .navbar .img {
+  max-width: 190px;
+  margin-right: 50px;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.header .navbar ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 687px) {
+  .header .navbar ul li {
+    font-size: 15px;
+  }
+}
+
+.header .navbar ul li a {
+  font-family: "Jost", sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: rgb(18, 162, 230);
+}

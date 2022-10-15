@@ -1,0 +1,69 @@
+.card {
+  position: relative;
+  width: 255px;
+  height: 518px;
+}
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 30px;
+  }
+}
+/* styling layer 1 */
+.card .layer-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1c204b;
+  border-radius: 15px;
+}
+.card .layer-1 ul {
+  position: absolute;
+  bottom: 0;
+  list-style: none;
+  paddig-left: 32px;
+}
+.card .layer-1 .list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7078c9;
+  margin-bottom: 21px;
+}
+.active-li {
+  color: #fff !important;
+}
+/* Styling layer 2 */
+.card .layer-2 {
+  position: absolute;
+  width: 100%;
+  height: 354px;
+  left: 0;
+  top: 0;
+  background: #5747ea;
+  border-radius: 15px;
+}
+.card .layer-2 .image {
+  width: 130px;
+  height: 130px;
+  background: url("./../../assets/avatar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid #fff;
+  margin-top: 33px;
+}
+.card .layer-2 .report {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 40px 0 10px 23px;
+  color: #bbc0ff;
+}
+.card .layer-2 .sales {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 12px;
+  margin-left: 21px;
+  color: #ffffff;
+}

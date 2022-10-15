@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="home">
+  <div class="main">
+    <div class="best">
+      <app-main-card></app-main-card>
+    </div>
+    <div class="items">
+      <ng-container
+        class="item"
+        *ngFor="let item of data; let i = index; trackBy: track"
+      >
+        <app-card [item]="item"></app-card>
+      </ng-container>
+    </div>
+  </div>
+</div>

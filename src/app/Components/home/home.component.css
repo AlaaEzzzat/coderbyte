@@ -1,0 +1,33 @@
+.home {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.home .main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.home .main .best {
+  display: flex;
+  justify-content: center;
+}
+
+.home .items {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+.home .item {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .home .main {
+    grid-template-columns: 100%;
+  }
+  .home .items {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
