@@ -18,10 +18,18 @@
         />
       </svg>
     </div>
-    <div class="price">{{ item.price }} $</div>
-    <div class="info">
-      <div class="title">{{ item.title }}</div>
-      <div class="stock">in Stock {{ item.rating.count }}</div>
+    <div class="data">
+      <div class="price">{{ item.price }}$</div>
+      <div class="info">
+        <div class="title">
+          {{
+            item.title.length < 50
+              ? item.title
+              : item.title.substr(0, 50) + "..."
+          }}
+        </div>
+        <div class="stock">in Stock {{ item.rating.count }}</div>
+      </div>
     </div>
   </div>
 </div>

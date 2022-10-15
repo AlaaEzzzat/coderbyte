@@ -13,12 +13,11 @@
 .item-card .layer-1 {
   height: 160px;
   top: 0;
-  background: #ff8b64;
 }
 
 /* Styling layer 2 */
 .item-card .layer-2 {
-  height: 199px;
+  height: 210px;
   bottom: 0;
   background: #1c204b;
   color: #fff;
@@ -49,11 +48,49 @@
   font-size: 12px;
   margin-top: 15px;
   line-height: 14px;
+  padding: 5px;
   color: #bbc0ff;
   width: 168px;
 }
 .item-card .layer-2 .info .stock {
   font-weight: 500;
   font-size: 12px;
+  width: 45px;
   line-height: 14px;
+}
+
+@media (max-width: 768px) {
+  .item-card {
+    width: 327px;
+    min-height: 160px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .item-card .layer-2 {
+    padding-left: 24px;
+    top: 34px;
+    height: 128px;
+  }
+  .item-card .layer-2 .category-container {
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item-card .data {
+    display: flex;
+    align-items: center;
+  }
+
+  .item-card .layer-2 .price {
+    width: 135px;
+    margin-top: 7px;
+  }
+  .item-card .layer-2 .info .title {
+    font-size: 10px;
+  }
+  .item-card .layer-2 .info .stock {
+    display: none;
+  }
 }

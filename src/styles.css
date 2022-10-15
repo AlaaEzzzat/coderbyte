@@ -11,3 +11,40 @@ body {
   height: 1024px;
   background: #0e1323;
 }
+@media (max-width: 768px) {
+  body {
+    width: auto;
+    height: auto;
+    background: #0e1323;
+  }
+}
+.item-1 .item-card .layer-1 {
+  background: #ff8b64;
+}
+.item-2 .item-card .layer-1 {
+  background: #55c2e6;
+}
+.item-3 .item-card .layer-1 {
+  background: #ff5e7d;
+}
+.item-4 .item-card .layer-1 {
+  background: #ff8b64;
+}
+.item-5 .item-card .layer-1 {
+  background: #55c2e6;
+}
+.item-6 .item-card .layer-1 {
+  background: #4bcf82;
+}
+.item-7 .item-card .layer-1 {
+  background: #7335d2;
+}
+.item-8 .item-card .layer-1 {
+  background: #f1c75b;
+}
+.item-9 .item-card .layer-1 {
+  background: #4bcf82;
+}
+.item-10 .item-card .layer-1 {
+  background: #7335d2;
+}
